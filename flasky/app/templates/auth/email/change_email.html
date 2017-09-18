@@ -1,0 +1,10 @@
+<img src="{{ url_for('static',filename = 'sky.jpg') }}" align="right" height="100" width="100" >
+<p>Hello {{ user.username }},</p>
+<p>To confirm your new email address <a href="{{ url_for('auth.change_email', token=token, _external=True) }}">click here</a>.</p>
+<p>Alternatively, you can paste the following link in your browser's address bar:</p>
+<hr />
+<p><u>{{ url_for('auth.change_email', token=token, _external=True) }}</u></p>
+<hr />
+<p>Sincerely,</p>
+<p>Zeng liang</p>
+<p><small>Note: replies to this email address are not monitored.</small></p>

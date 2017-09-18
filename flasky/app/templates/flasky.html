@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+
+{% block title %}Flasky - Infomation{% endblock %}
+
+{% block page_content %}
+<body background="{{ url_for('static',filename='sky.jpg')}}"  style="max-width: 100%" background-size:cover;>
+<p align="center"><b>
+    Copyright (c) 2016 Zeng Liang
+    <br />
+    If you have any question,just contact me <i>zengliang123456@gmail.com</i>
+</b>
+</p>
+<hr />
+<div align="center" >
+    <p align="left" font-family="Microsoft YaHei">This is a blog websit,which is small but complete.<br />
+        It has almost all the features a blog site.<br />
+        <img src="{{ url_for('static',filename = 'flasky.png') }}" align="right" style="max-width: 57%">
+        Generally, there are seven major functional systems :<br />
+        1.User authentication system <br />
+        2.User roles and permissions <br />
+        3.User profile page <br />
+        4.Fine blog interface <br />
+        5.Users concerned about the system Blog post <br/>
+        6.user reviews system Application <br />
+        7.Programming Interface<br />
+        Above it,I use python frame "flask":<br />
+        Flask is a smart tool,which depends on two external libraries: <br />
+        the Jinja2 template engine and <br />
+        the Werkzeug WSGI(Web Server Gateway Interface) toolkit.<br />
+        It's home page:<a href="http://flask.pocoo.org/"><b>  Flasky</b></a>
+    </p>
+</div>
+<br />
+<hr />
+<p align="center" font-family="STHeiti">
+    <b>Read more details about this project<br/>Just visit the following github website</b>
+    <br />
+    <br />
+    <img src="{{ url_for('static',filename = 'a.png') }}" style="max-width: 15%" >
+</p>
+{% endblock %}
