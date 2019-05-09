@@ -12,7 +12,7 @@ Generally, there are seven major functional systems:
 * Programming interface
 ******
 Above it, I use python framework [flasky](http://flask.pocoo.org/docs/0.12/),
- which depends on two external libraries: the [Jinja2](http://jinja.pocoo.org/) template engine and the [Werkzeug](http://werkzeug.pocoo.org/) WSGI toolkit
+ which depends on two external libraries: the [Jinja2](http://jinja.pocoo.org/) template engine and the [Werkzeug](http://werkzeug.pocoo.org/) WSGI toolkit.
 [This is my home page](www.zengliang.net.cn). Welcome to visit it. 
 If you have any question, please feel free to contact [me](zengliangcs@gmail.com)
 ******
@@ -27,6 +27,5 @@ If you have any question, please feel free to contact [me](zengliangcs@gmail.com
 ## Author
 [@zlpure](github.com/zlpure)
 ******
-**Note:** If you consult my code that you may want to incorporate into your strategy or algorithm, 
-so long as you clearly cite your sources in your code and your writeup.
+**Note:** If you consult my source codes that you may want to incorporate into your algorithm or system, you should clearly cite references in your codes.
 ******
